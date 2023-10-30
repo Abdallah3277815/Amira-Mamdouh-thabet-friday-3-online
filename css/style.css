@@ -1,0 +1,351 @@
+/* general */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Alegreya", serif;
+  font-family: "Alegreya Sans", sans-serif;
+}
+
+.clear {
+  clear: both;
+}
+
+.container {
+  padding: 90px 70px 60px;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 33px;
+  margin-bottom: 20px;
+}
+
+.main-p {
+  color: #686868;
+  line-height: 2;
+  font-size: 17px;
+}
+
+/* ************ */
+
+/* Start Header */
+.header {
+  background-image: url("../imgs/drew-coffman-1872.jpg");
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+}
+
+.nav {
+  padding: 25px 50px;
+  width: 100%;
+}
+
+.icon {
+  display: inline-block;
+}
+
+.icon .nav-img {
+  width: 48%;
+}
+
+.empty {
+  width: 20%;
+  height: 20px;
+  display: inline-block;
+  /* background-color: #fff; */
+}
+
+.links {
+  width: 50%;
+  display: inline-block;
+  text-align: center;
+}
+
+.nav-img {
+  width: 200px;
+}
+
+.links ul {
+  list-style: none;
+}
+
+.links ul li {
+  padding: 0 15px;
+  display: inline-block;
+}
+
+.links ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.header-text {
+  margin: 50px 0;
+  padding: 50px 0;
+  color: #fff;
+  text-align: center;
+}
+
+.wel {
+  font-size: 26px;
+  padding: 10px;
+}
+.well-p {
+  font-size: 26px;
+  padding: 10px;
+  line-height: 2;
+}
+
+h1 {
+  font-size: 76px;
+  font-family: "Alegreya", serif;
+  font-weight: 100;
+}
+
+button {
+  padding: 18px 30px;
+  color: #fff;
+  margin-left: 10px;
+  margin-top: 20px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.color {
+  background-color: #8e7754;
+  border: 2px solid transparent;
+}
+
+.trans {
+  background-color: transparent;
+  border: 2px solid #fff;
+}
+/* End Header */
+
+/* Start home  */
+
+.home-img {
+  display: inline-block;
+  width: 48%;
+  margin-right: 20px;
+}
+
+.home-img img {
+  width: 100%;
+}
+
+.home-text {
+  display: inline-block;
+  width: 45%;
+  margin-left: 50px;
+  vertical-align: 40px;
+}
+
+.home-list {
+  margin-top: 20px;
+}
+
+.main-icons {
+  padding: 15px 0;
+}
+.main-icons span {
+  color: #686868;
+}
+
+.main-icons i {
+  color: #8e7754;
+  border: 1px solid #8e7754;
+  padding: 10px;
+  border-radius: 50%;
+  margin-right: 10px;
+  font-size: 17px;
+}
+
+/* End home */
+
+/* Srart Location */
+
+.our-location {
+  background-color: #f8f8f8;
+}
+
+.our-location-text {
+  display: inline-block;
+  width: 50%;
+  margin-right: 20px;
+  vertical-align: 115px;
+}
+
+.center-p {
+  padding: 20px 0;
+}
+
+.our-location-img {
+  display: inline-block;
+  width: 45%;
+}
+
+.our-location-img img {
+  width: 100%;
+}
+
+/* End Location */
+
+/* start our baking */
+.our-baking-text {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.card {
+  width: 31%;
+  float: left;
+}
+
+.card-img img {
+  width: 100%;
+}
+
+.card-text {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.center-card {
+  margin: 0 40px;
+}
+
+/* end our baking */
+
+/* start Contact */
+
+.contact-information {
+  background-color: #f8f8f8;
+}
+
+.contact {
+  float: left;
+  width: 47%;
+}
+
+.our-p {
+  padding-top: 40px;
+  padding-bottom: 15px;
+  color: #686868;
+}
+
+.main-icons .contact-icon {
+  color: #fff;
+  background-color: #8e7754;
+  border-radius: 50%;
+  margin-right: 10px;
+  font-size: 17px;
+}
+
+.map {
+  float: right;
+  width: 50%;
+}
+
+/* end Contact */
+
+/* start About */
+
+.about {
+  background-color: #403d38;
+}
+
+h3 {
+  color: #fff;
+  margin-bottom: 20px;
+  font-weight: 300;
+}
+
+.why-we ul,
+.opening ul,
+.contact-details ul {
+  list-style: none;
+  padding: 0;
+}
+
+.why-we ul li,
+.opening ul li,
+.contact-details ul li {
+  padding: 10px;
+  color: #999797;
+}
+
+.why-we ul li i,
+.opening ul li i {
+  font-size: 11px;
+  padding-right: 5px;
+}
+
+.test {
+  background-image: url("../imgs/back-map.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.test ul {
+  background-color: transparent;
+}
+
+.contact-details i {
+  font-size: 18px;
+  padding-right: 10px;
+}
+
+.footer-p {
+  line-height: 2;
+  font-size: 14px;
+  color: #999797;
+}
+
+.footer-li {
+  padding: 10px 0;
+  border-bottom: 1px solid #999797;
+}
+
+.footer-mail {
+  text-decoration: none;
+  color: #999797;
+}
+
+.float-footer {
+  width: 24%;
+  float: left;
+  padding-right: 25px;
+}
+
+.float {
+  width: 24%;
+  float: left;
+}
+
+/* end About */
+
+/* start footer */
+.footer {
+  text-align: center;
+  background-color: #353330;
+}
+
+.footer-copyright {
+  font-size: 17px;
+  color: #999797;
+  padding: 20px 0;
+}
+.footer-icons i {
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 50%;
+  color: #ffffff59;
+  background-color: #484540;
+  width: 40px;
+  font-size: 19px;
+}
